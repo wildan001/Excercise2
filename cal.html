@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<head>
+    <title>Kalkulator</title>
+    <link rel="stylesheet" type="text/css" href="cal.css">
+    <script type="text/javascript" src="cal.js"></script>
+
+</head>
+<body>
+    <form name="kalkulator">
+    
+        <input type="text" value="0" name="layar" class="layar" size="29"/><br/>
+        <input type="button" value="7" class="button" onclick="Angka(7);"/>
+        <input type="button" value="8" class="button" onclick="Angka(8);"/>
+        <input type="button" value="9" class="button" onclick="Angka(9);"/>
+        <input type="button" value="+" class="button opr" onclick="Operator('+');"/> <br />
+        <input type="button" value="4" class="button" onclick="Angka(4);"/>
+        <input type="button" value="5" class="button" onclick="Angka(5);"/>
+        <input type="button" value="6" class="button" onclick="Angka(6);"/>
+        <input type="button" value="-" class="button opr" onclick="Operator('-');"/> <br/>
+        <input type="button" value="1" class="button" onclick="Angka(1);"/>
+        <input type="button" value="2" class="button" onclick="Angka(2);"/>
+        <input type="button" value="3" class="button" onclick="Angka(3);"/>
+        <input type="button" value="x" class="button opr" onclick="Operator('*');"/><br />
+        <input type="button" value="0" class="button" onclick="Angka(0);"/>
+        <input type="button" value="c" class="button clr" onclick="Clear();"/>
+        <input type="button" value="=" class="button hsl" onclick="Hitung();"/>
+        <input type="button" value="/" class="button opr" onclick="Operator('/');"/>
+
+        <marquee ><p>penrhitungan hanya bisa dilakukan antar dua bilangan saja!!!</p></marquee>    
+    </form>
+</body>
